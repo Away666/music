@@ -1,0 +1,191 @@
+@import "https://at.alicdn.com/t/font_2559410_7ih6tcqtq07.css?spm=a313x.7781069.1998910419.47&file=font_2559410_7ih6tcqtq07.css";
+@import "//at.alicdn.com/t/font_2887911_an3nykqq139.css";
+
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* min-width: 1366px; */
+}
+
+.el-aside::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 15px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+/* 解决级联选择框的问题 */
+div .el-scrollbar__wrap {
+  height: 300px !important
+}
+
+.el-steps {
+  margin: 15px 0;
+}
+
+.el-step__title {
+  font-size: 13px;
+}
+
+.sortPop {
+  position: absolute;
+  z-index: 0 !important;
+  height: 40%;
+  overflow-y: scroll;
+}
+
+.sortPop::-webkit-scrollbar {
+  width: 6px;
+}
+
+.page {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  background-color: rgb(255, 255, 255);
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: rgb(236, 65, 65);
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: unset;
+  background-color: rgb(244, 244, 244);
+}
+
+.el-table td.el-table__cell,
+.el-table th.el-table__cell.is-leaf {
+  border-bottom: unset;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped.current-row td.el-table__cell {
+  background-color: rgb(229, 229, 229)
+}
+
+.el-table__body tr.current-row>td.el-table__cell {
+  background-color: rgb(229, 229, 229)
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell {
+  background-color: rgb(240, 241, 242);
+}
+
+body .el-table .el-table__row .currentRow {
+  color: #ec4141 !important;
+}
+
+.el-tabs__header {
+  margin: 15px 0 0;
+}
+
+.el-tabs__nav-wrap::after {
+  background-color: unset;
+}
+
+.el-tabs__item.is-active {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.el-tabs__item:hover {
+  color: unset;
+}
+
+.el-tabs__active-bar {
+  background-color: red;
+  height: 3px;
+}
+
+.el-slider__bar {
+  background-color: #ff4e4e !important;
+}
+
+.el-slider__button {
+  border: 1px solid #ccc !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.el-slider__runway {
+  height: 4px ! important;
+}
+
+.el-slider__bar {
+  height: 4px !important;
+}
+
+.el-slider__button-wrapper {
+  top: -16px !important;
+}
+
+.el-drawer__wrapper {
+  bottom: auto !important;
+  height: calc(100vh - 76px);
+}
+
+.rtl {
+  width: 350px !important;
+  display: unset;
+  overflow: auto;
+}
+
+
+.el-main::-webkit-scrollbar {
+  width: 5px;
+}
+
+.el-main::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.el-main::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+
+}
